@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang=en>
+
+<head>
+<meta charset=utf-8>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link href="img/favicon.png" rel="shortcut icon" />
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/font-awesome.css" rel="stylesheet">
+<link href="css/owl.carousel.min.css" rel="stylesheet">
+<link href="css/custom.css" rel="stylesheet">
+<link href="css/responsive.css" rel="stylesheet">
+<link href="css/animate.min.css" rel="stylesheet"> 
+<title>HOUSE OF DESIGN</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<!-- swiper slider css -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+<style>
+	.flickity-prev-next-button {
+		background: transparent;
+		border: none;
+		/* Apply drop-shadow filter for a subtle shadow effect */
+		filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, 0.25));
+	}
+	
+	.flickity-prev-next-button:hover {
+		/* Slightly more pronounced drop-shadow on hover for better visibility */
+		filter: drop-shadow(3px 6px 9px rgba(0, 0, 0, 0.3));
+	}
+</style>
+
+<style>
+	/* Default style for larger screens */
+	.vertical-image {
+	  max-width: 45%;
+	}
+	
+	/* Media query for screens that are 768px wide or less */
+	@media (max-width: 1168px) {
+	  .vertical-image {
+		max-width: 70%;
+	  }
+	}
+</style>
+
+
+
+</head>
+<body>
+
+<!-- header -->
+<div class="header header-sticky">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <nav class="navbar navbar-expand-xl navbar-light">
+                    <a class="navbar-brand d-xl-none d-inline-block" href="index.html">
+                        <img src="img/logo-main.png" class="img-fluid h-logo" alt="img">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" id="ChangeToggle">
+                        <span id="navbar-hamburger" class="show">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                            </svg>
+                        </span>
+                        <span id="navbar-close" class="">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+                                <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                            </svg>
+                        </span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav m-auto align-items-center">
+                            <li class="nav-item dropdown">
+					          	<a style="color:#545051" class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+					            	Portfolio
+									<i class="fa fa-caret-down ps-1" aria-hidden="true"></i>
+					          	</a>
+					          	<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+						            <li><a style="color:#545051" class="dropdown-item" href="kitchen.html">kitchen</a></li>
+						            <li><a style="color:#545051" class="dropdown-item" href="great-room.html">great room</a></li>
+						            <li><a style="color:#545051" class="dropdown-item" href="entertainment.html">entertainment</a></li>
+						            <li><a style="color:#545051" class="dropdown-item" href="dining.html">dining</a></li>
+						            <li><a style="color:#545051" class="dropdown-item" href="bath.html">bath</a></li>
+						            <li><a style="color:#545051" class="dropdown-item" href="bedroom.html">bedroom</a></li>
+						            <li><a style="color:#545051" class="dropdown-item" href="laundry.html">Laundry</a></li>
+						            <li><a style="color:#545051" class="dropdown-item" href="study.html">study</a></li>
+					          	</ul>
+					        </li>
+                            <li class="nav-item">
+                                <a style="color:#545051" class="nav-link" href="services.html">Services</a>
+                            </li>
+                            <li class="nav-item d-xl-block d-none">
+                                <a class="nav-link no-hover py-0" href="index.html"><img src="img/logo-main.png" class="img-fluid h-logo" alt="img"></a>
+                            </li>
+                            <!-- <li class="nav-item">
+                                <a class="nav-link" href="#">Shop The Look</a>
+                            </li> -->
+                            <li class="nav-item">
+                                <a style="color:#545051" class="nav-link" href="about.html">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a style="color:#545051" class="nav-link" href="contact.html">Contact</a>
+                            </li>
+                            <li class="nav-item px-0 position-relative">
+                                <a class="nav-link-btn btn theme-btn" target="_blank" href="https://mydomastudio.com/login/">Login to My Studio</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+</div> 
+
+<!-- hero sec -->
+<div class="hero-sec-div portfolio-hero-sec sec-pad" style="background-image: url(img/portfolio/hero-bg.jpg);">
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				<h1 class="hero-title text-shadow">Portfolio</h1>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- content area start-->
+<div class="sec-pad pb-0">
+	<div class="container">
+		<div class="row">
+			<div class="col-12 text-center">
+				<div class="flex-wrap-div">
+					<p class="big-title"><a href="kitchen.html">kitchen</a></p>
+					<p>|</p>
+					<p style="color:#545051"><a href="great-room.html">great room</a></p>
+					<p>|</p>
+					<p style="color:#545051"><a href="entertainment.html">entertainment</a></p>
+					<p>|</p>
+					<p style="color:#545051"><a href="dining.html">dining</a></p>
+					<p>|</p>
+					<p style="color:#545051"><a href="bath.html">bath</a></p>
+					<p>|</p>
+					<p style="color:#545051"><a href="bedroom.html">bedroom</a></p>
+					<p>|</p>
+					<p style="color:#545051"><a href="laundry.html">Laundry</a></p>
+					<p>|</p>
+					<p style="color:#545051"><a href="study.html">study</a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+<!-- content area start-->
+
+<div class="container">
+	<!-- kitchen first slider -->
+<section class="slider_content">
+	<div class="swiper mySwiper1 common-wrapper">
+	  <div class="swiper-wrapper">
+		<div class="swiper-slide"><img src="img/portfolio/kitchen/1/img1.jpg" alt="entertainment" /></div>
+		<div class="swiper-slide"><img src="img/portfolio/kitchen/1/img2.jpg" alt="entertainment" /></div>
+		<div class="swiper-slide"><img src="img/portfolio/kitchen/1/img3.jpg" alt="entertainment" /></div>
+		<div class="swiper-slide"><img src="img/portfolio/kitchen/1/img4.jpg" alt="entertainment" /></div>
+		<div class="swiper-slide"><img src="img/portfolio/kitchen/1/img5.jpg" alt="entertainment" /></div>
+	  </div>
+	  <div class="swiper-button-next"></div>
+	  <div class="swiper-button-prev"></div>
+	</div>
+	<div class="swiper mySwiper_1 common-inner">
+	  <div class="swiper-wrapper">
+		<div class="swiper-slide"><img src="img/portfolio/kitchen/1/img1.jpg" alt="entertainment" /></div>
+		<div class="swiper-slide"><img src="img/portfolio/kitchen/1/img2.jpg" alt="entertainment" /></div>
+		<div class="swiper-slide"><img src="img/portfolio/kitchen/1/img3.jpg" alt="entertainment" /></div>
+		<div class="swiper-slide"><img src="img/portfolio/kitchen/1/img4.jpg" alt="entertainment" /></div>
+		<div class="swiper-slide"><img src="img/portfolio/kitchen/1/img5.jpg" alt="entertainment" /></div>
+	  </div>
+	</div>
+  </section>
+  
+  
+  <!-- kitchen second slider -->
+  <section class="slider_content">
+	<div class="swiper mySwiper2 common-wrapper row-wrapper">
+	  <div class="swiper-wrapper">
+		<div class="swiper-slide"><img src="img/portfolio/kitchen/2/img1.jpg" alt="entertainment" /></div>
+		<div class="swiper-slide"><img src="img/portfolio/kitchen/2/img2.jpg" alt="entertainment" /></div>
+		<div class="swiper-slide"><img  class="Slider_H" src="img/portfolio/kitchen/2/img3.jpg" alt="entertainment" /></div>
+	  </div>
+	  <div class="swiper-button-next"></div>
+	  <div class="swiper-button-prev"></div>
+	</div>
+	<div class="swiper mySwiper_2 common-inner row-inner">
+	  <div class="swiper-wrapper">
+		<div class="swiper-slide"><img src="img/portfolio/kitchen/2/img1.jpg" alt="" /></div>
+		<div class="swiper-slide"><img src="img/portfolio/kitchen/2/img2.jpg" alt="" /></div>
+		<div class="swiper-slide"><img src="img/portfolio/kitchen/2/img3.jpg" alt="" /></div>
+	  </div>
+	</div>
+  </section>
+  
+  
+  
+  <!-- kitchen third slider -->
+  <section class="slider_content">
+	<div class="swiper mySwiper3 common-wrapper row-wrapper">
+	  <div class="swiper-wrapper">
+		<div class="swiper-slide"><img src="img/portfolio/kitchen/3/img1.jpg" alt="entertainment" /></div>
+		<div class="swiper-slide"><img class="Slider_H" src="img/portfolio/kitchen/3/img2.jpg" alt="entertainment" /></div>
+	  </div>
+	  <div class="swiper-button-next"></div>
+	  <div class="swiper-button-prev"></div>
+	</div>
+	<div class="swiper mySwiper_3 common-inner row-inner">
+	  <div class="swiper-wrapper">
+		<div class="swiper-slide"><img src="img/portfolio/kitchen/3/img1.jpg" alt="" /></div>
+		<div class="swiper-slide"><img src="img/portfolio/kitchen/3/img2.jpg" alt="" /></div>
+	  </div>
+	</div>
+  </section>
+  
+  <!-- kitchen four slider -->
+  <section class="slider_content">
+	<div class="swiper mySwiper4 common-wrapper">
+	  <div class="swiper-wrapper">
+		<div class="swiper-slide"><img src="img/portfolio/kitchen/4/img1.jpg" alt="entertainment" /></div>
+		<div class="swiper-slide"><img src="img/portfolio/kitchen/4/img2.jpg" alt="entertainment" /></div>
+		<div class="swiper-slide"><img src="img/portfolio/kitchen/4/img2.jpg" alt="entertainment" /></div>
+	  </div>
+	  <div class="swiper-button-next"></div>
+	  <div class="swiper-button-prev"></div>
+	</div>
+	<div class="swiper mySwiper_4 common-inner">
+	  <div class="swiper-wrapper">
+		<div class="swiper-slide"><img src="img/portfolio/kitchen/4/img1.jpg" alt="" /></div>
+		<div class="swiper-slide"><img src="img/portfolio/kitchen/4/img2.jpg" alt="" /></div>
+		<div class="swiper-slide"><img src="img/portfolio/kitchen/4/img2.jpg" alt="" /></div>
+	  </div>
+	</div>
+  </section>
+
+
+  <!-- kitchen five slider start -->
+  <section class="slider_content">
+	<div class="swiper mySwiper5 common-wrapper">
+	  <div class="swiper-wrapper">
+		<div class="swiper-slide"><img src="img/portfolio/kitchen/5/img1.jpg" alt="entertainment" /></div>
+		<div class="swiper-slide"><img src="img/portfolio/kitchen/5/img2.jpg" alt="entertainment" /></div>
+		<div class="swiper-slide"><img src="img/portfolio/kitchen/5/img3.jpg" alt="entertainment" /></div>
+		<div class="swiper-slide"><img src="img/portfolio/kitchen/5/img4.jpg" alt="entertainment" /></div>
+	  </div>
+	  <div class="swiper-button-next"></div>
+	  <div class="swiper-button-prev"></div>
+	</div>
+	<div class="swiper mySwiper_5 common-inner">
+	  <div class="swiper-wrapper">
+		<div class="swiper-slide"> <img src="img/portfolio/kitchen/5/img1.jpg" alt="" /></div>
+		<div class="swiper-slide"><img src="img/portfolio/kitchen/5/img2.jpg" alt="" /></div>
+		<div class="swiper-slide"><img src="img/portfolio/kitchen/5/img3.jpg" alt="" /></div>
+		<div class="swiper-slide"><img src="img/portfolio/kitchen/5/img4.jpg" alt="" /></div>
+	  </div>
+	</div>
+  </section>
+  
+</div>
+
+<!-- content area end-->
+
+<div class="sec-pad pt-0">
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-xxl-10 col-lg-11 col-12">
+				<div class="sec-pad pb-0" style="display: flex; align-items: center; justify-content: center;">
+					<img src="img/portfolio/kitchen/img1.jpg" class="img-fluid" style="max-width: 90%;" alt="img">
+				</div>
+			</div>
+			<div class="col-xxl-10 col-lg-11 col-12">
+				<div class="sec-pad pb-0" style="display: flex; align-items: center; justify-content: center;">
+					<img src="img/portfolio/kitchen/img2.jpg" class="img-fluid" style="max-width: 90%;" alt="img">
+				</div>
+			</div>
+			<div class="col-xxl-10 col-lg-11 col-12">
+				<div class="sec-pad pb-0" style="display: flex; align-items: center; justify-content: center;">
+					<img src="img/portfolio/kitchen/img3.jpg" class="img-fluid" style="max-width: 90%;" alt="img">
+				</div>
+			</div>
+			<div class="col-xxl-10 col-lg-11 col-12">
+				<div class="sec-pad pb-0" style="display: flex; align-items: center; justify-content: center;">
+					<img src="img/portfolio/kitchen/img4.jpg" class="img-fluid" style="max-width: 90%;" alt="img">
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+<!-- footer -->
+<div class="footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-3 col-sm-6 col-6 mb-lg-0 mb-4">
+				<h3 style="color:#545051" class="footer-title">Navigation</h3>
+				<div class="footer-links">
+					<p style="color:#545051"><a href="default.html">Home</a></p>
+					<p style="color:#545051"><a href="kitchen.html">Portfolio</a></p>
+					<p style="color:#545051"><a href="services.html">Services</a></p>
+					<!-- <p><a href="#">Shop the Look</a></p> -->
+					<p style="color:#545051"><a href="about.html">About</a></p>
+					<p style="color:#545051"><a href="contact.html">Contact</a></p>
+				</div>
+			</div>
+			<div class="col-lg-3 col-sm-6 col-6 mb-lg-0 mb-4">
+				<h3 style="color:#545051" class="footer-title">Portfolio</h3>
+				<div class="footer-links">
+					<p style="color:#545051"><a href="kitchen.html">kitchen</a></p>
+					<p style="color:#545051"><a href="great-room.html">great room</a></p>
+					<p style="color:#545051"><a href="entertainment.html">entertainment</a></p>
+					<p style="color:#545051"><a href="dining.html">dining</a></p>
+					<p style="color:#545051"><a href="bath.html">bath</a></p>
+					<p style="color:#545051"><a href="bedroom.html">bedroom</a></p>
+					<p style="color:#545051"><a href="laundry.html">laundry</a></p>
+					<p style="color:#545051"><a href="study.html">study</a></p>
+				</div>
+			</div>
+			<div class="col-lg-3 col-sm-6 col-6 mb-lg-0 mb-4">
+				<h3 style="color:#545051" class="footer-title">Contact</h3>
+				<div class="">
+					<p style="color:#545051" class="uppercase mb-1">location</p>
+					<p style="color:#545051" class="ft-18">3223 Riverside Drive, <br>Cincinnati, OH 45226</p>
+				</div>
+				<div class="">
+					<p style="color:#545051" class="uppercase mb-1">Phone</p>
+					<p style="color:#545051" class="ft-18"><a href="tel:513.321.0612">513.321.0612</a></p>
+				</div>
+				<div class="">
+					<p style="color:#545051" class="uppercase mb-1">Email</p>
+					<p style="color:#545051" class="ft-18"><a href="mailto:info@houseofdesigngroup.com">info@houseofdesigngroup.com</a></p>
+				</div>
+				<div class="">
+					<p style="color:#545051" class="uppercase mb-1">Hours</p>
+					<p style="color:#545051" class="ft-18">Monday - Friday |<br class="d-sm-none d-block"> 9am - 5pm</p>
+				</div>
+			</div>
+			<div class="col-lg-3 col-sm-6 col-6 mb-lg-0 mb-4">
+				<div class="vertical-flex">
+					<div>
+						<h3 style="color:#545051" class="footer-title">follow us</h3>
+						<div class="social">
+							<a href="#"><span style="color:#545051" class="fa fa-facebook"></span></a>
+							<a href="#"><span style="color:#545051" class="fa fa-instagram"></span></a>
+						</div>
+					</div>
+					<div>
+						<div class="footer-links">
+							<p style="color:#545051"><a href="#">privacy policy</a></p>
+						</div>
+						<p style="color:#545051" class="ft-18">© Copyright 2023,<br>All Rights Reserved</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- swiper js -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+<script src="js/jquery-1.11.1.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/flickity.pkgd.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/my3860.js?v=1"></script> 
+</body>
+
+</html>
